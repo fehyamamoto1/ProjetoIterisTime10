@@ -4,7 +4,7 @@
       <img src="../assets/coleta.svg" alt="Coleta">
     </div>
     <p class="text-home mt-5 ml-4 mr-4">Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente. Solucionando um grande problema recorrente que é o descarte inadequado do lixo, facilitando o processo de recliclagem e reutilização.</p>
-    <h3 class="text-center mb-5 mt-10">Deseja ser um colaborador?</h3>
+    <h3 class="text-center mb-5 mt-5">Deseja ser um colaborador?</h3>
     <div class="btn-contato text-center">
       <router-link to="/pg-contato">
         <v-btn outlined rounded color="#43A047" elevation="2">
