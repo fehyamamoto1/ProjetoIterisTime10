@@ -29,14 +29,6 @@
                 </v-btn>
             </router-link>
 
-            <router-link to='/'>
-                <v-btn>
-                    <span>Contato</span>
-
-                    <v-icon>mdi-account</v-icon>
-                </v-btn>
-            </router-link>
-
         </v-bottom-navigation>
     </div>
 </template>
@@ -58,7 +50,7 @@ export default {
             text-decoration: none;
             display: flex;
             flex-grow: 1;
-            max-width: 90px;   
-            height: 100%;  
+            max-width: 33%;   
+             
     }
 </style>
