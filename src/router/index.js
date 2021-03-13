@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import PaginaUsuario from '../views/PaginaUsuario.vue'
+import Usuario from '../views/Usuario.vue'
 
 Vue.use(VueRouter)
 
@@ -13,8 +13,8 @@ const routes = [
   },
   {
     path: '/usuario',
-    name: 'PaginaUsuario',
-    component: PaginaUsuario
+    name: 'Usuario',
+    component: Usuario
   }
 ]
 
