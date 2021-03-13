@@ -14,8 +14,12 @@
                 </v-form>
 
             <div class="botoes">
-                <v-btn color="green" elevation="2" medium outlined rounded>Login</v-btn> <router-link to='/registro'>
-                <v-btn color="green" elevation="2" medium outlined rounded>Cadastrar-se</v-btn></router-link>
+                <router-link to="/usuario">
+                    <v-btn color="green" elevation="2" medium outlined rounded>Login</v-btn>
+                </router-link> 
+                <router-link to='/registro'>
+                    <v-btn color="green" elevation="2" medium outlined rounded>Cadastrar-se</v-btn>
+                </router-link>
             </div>    
                 
         </div>
