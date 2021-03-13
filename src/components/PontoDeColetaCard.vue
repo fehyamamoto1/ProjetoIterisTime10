@@ -10,11 +10,10 @@
       </v-card-subtitle>
 
       <v-card-actions>
-        <v-btn color="green lighten-2" text @click="show = !show">
-          Localização
-        </v-btn>
-
         <v-spacer></v-spacer>
+        <v-btn color="green" text @click="show = !show">
+          Ver Localização
+        </v-btn>
 
         <v-btn icon @click="show = !show">
           <v-icon>{{ show ? "mdi-chevron-up" : "mdi-chevron-down" }}</v-icon>
