@@ -8,7 +8,12 @@
       <v-form class="login-box">
         <v-text-field v-model="login_id" label="ID" required> </v-text-field>
 
-        <v-text-field v-model="login_pass" label="Password" required>
+        <v-text-field
+          type="password"
+          v-model="login_pass"
+          label="Password"
+          required
+        >
         </v-text-field>
       </v-form>
 

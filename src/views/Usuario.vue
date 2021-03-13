@@ -32,7 +32,7 @@
           <tr>
             <th colspan="2" class="text-left">Local</th>
             <th colspan="2" class="text-left" alt="Selecione os visitados">
-              Selecione o locais visitados
+              Selecione os locais visitados
             </th>
           </tr>
         </thead>
