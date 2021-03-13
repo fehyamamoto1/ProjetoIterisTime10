@@ -26,6 +26,7 @@
                     </v-checkbox>
             </v-form>        
                     <div class="botoes">
+                        <router-link to="/login">
                         <v-btn
                             class="botaoCadastrar"
                             color="green"
@@ -48,6 +49,7 @@
                         >
                             Limpar
                         </v-btn>
+                        </router-link>
                     </div>
             
         </div>
