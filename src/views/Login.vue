@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <div class="login">
+        <div style="width: 80%" class="login">
             <div class="login-form">
                 <h2>Login</h2>
             </div>
@@ -36,18 +36,16 @@ export default {
 </script>
 
 <style>
-    .login {
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 40px;
-    }
-    .login-box{
-        max-width: 100%;
-        
-        
-    }
-    .botoes a {
-        text-decoration: none;
-    }
+        .login {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        .login-box{
+            max-width: 100%;
+        }
+        .botoes a {
+            text-decoration: none;
+        }
 
 </style>

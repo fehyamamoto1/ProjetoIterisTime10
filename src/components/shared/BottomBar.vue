@@ -5,7 +5,7 @@
             <v-toolbar-title></v-toolbar-title>
             <v-spacer />
         </v-app-bar>
-        <v-bottom-navigation :value="value" color="#6d6d6d" app grow>
+        <v-bottom-navigation class="botoes" :value="value" color="#6d6d6d" app grow>
             <router-link to='/'>
                 <v-btn>
                     <span>Início</span>
@@ -46,11 +46,15 @@ export default {
 </script>
 
 <style scoped>
+    .app-bottom-bar > .botoes{
+        display: flex;
+        justify-content: center;
+    }
     .app-bottom-bar a {
             text-decoration: none;
-            display: flex;
+            display:flex;
+            justify-content: center;
             flex-grow: 1;
-            max-width: 33%;   
              
     }
 </style>
