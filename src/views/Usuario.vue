@@ -43,7 +43,7 @@
               <span class="pl-4">{{ coleta.nome }}</span>
             </td>
             <td>
-              <div class="my-2">
+              <div class="ms-8">
                 <v-btn
                   v-on:click="contadorSomar"
                   color="green"
