@@ -4,12 +4,15 @@
             <v-form class="registro-box" ref="form" v-model="valid" lazy-validation>
                     <v-text-field v-model="nome" label="Name" required>
                     </v-text-field>
+                    <v-text-field v-model="password" type="password" label="Senha" required>
+                    </v-text-field>
                     <v-text-field
                         v-model="numeroTelefone"
                         label="Telefone"
                         required
                     >
                     </v-text-field>
+                    
                     <v-text-field v-model="email" label="E-mail" required>
                     </v-text-field>
                     <v-text-field v-model="endereco" label="Endereço" required>
@@ -58,6 +61,7 @@ export default {
     data() {
         return {
             nome: "",
+            password: "",
             numeroTelefone: "",
             email: "",
             endereco: "",
@@ -80,7 +84,7 @@ export default {
 .registro {
     text-align: center;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     
 }
 .registro-box {

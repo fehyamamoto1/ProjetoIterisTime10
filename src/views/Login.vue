@@ -64,7 +64,7 @@ export default {
 .login {
   text-align: center;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .login-box {
   max-width: 100%;
