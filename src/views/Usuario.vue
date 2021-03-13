@@ -21,7 +21,7 @@
                 </td>
                 <td>
                     <v-btn color="green" dark>
-                        Trocar pontos
+                        <v-link>Trocar pontos
                     </v-btn>
                 </td>
                 </tr>
